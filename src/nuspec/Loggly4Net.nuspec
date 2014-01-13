@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
+    <id>Loggly4Net</id>
+    <version>1.0.0.0</version>
     <title>Loggly4Net</title>
     <authors>Erik Nilsson</authors>
     <owners>Erik Nilsson</owners>

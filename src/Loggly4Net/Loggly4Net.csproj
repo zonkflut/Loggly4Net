@@ -57,6 +57,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir $(ProjectDir)..\nuspec\Packages\
+$(ProjectDir)..\.nuget\nuget.exe pack $(ProjectDir)..\nuspec\Loggly4Net.nuspec -OutputDirectory $(ProjectDir)..\nuspec\Packages\</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
