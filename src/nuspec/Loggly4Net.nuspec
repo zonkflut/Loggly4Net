@@ -14,7 +14,7 @@
     <copyright>Copyright 2014</copyright>
 	<dependencies>
 		<group>
-			<dependency id="log4net" version="2.0.3" />
+			<dependency id="log4net" version="2.0.0" />
 			<dependency id="RestSharp" version="104.4.0" />
 		</group>
 	</dependencies>
