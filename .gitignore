@@ -81,7 +81,8 @@ publish
 
 # NuGet Packages Directory
 packages
-*/nuspec/Content
+*/nuspec/lib
+*/build_output
 
 # Windows Azure Build Output
 csx
