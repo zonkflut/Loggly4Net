@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Loggly4Net</title>
+    <authors>Erik Nilsson</authors>
+    <owners>Erik Nilsson</owners>
+    <licenseUrl>https://github.com/zonkflut/Loggly4Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zonkflut/Loggly4Net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A log4net appender for Loggly.com</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+	<dependencies>
+		<group>
+			<dependency id="log4net" version="2.0.3" />
+			<dependency id="RestSharp" version="104.4.0" />
+		</group>
+	</dependencies>
+  </metadata>
+</package>
